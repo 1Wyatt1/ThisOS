@@ -5,5 +5,5 @@
 void kernel_main(void)
 {
 	terminal_initialize();
-	printf("Hello, kernel World!\n");
+	printf("Look at this idiot!\n");
 }
