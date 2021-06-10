@@ -1,7 +1,7 @@
 #include <kernel/tty.h>
 
 #include "vga.h"
-#include "../../drivers/kbd.h"
+#include "../../drivers/keyboard/keyboard.h"
 
 static const size_t VGA_WIDTH = 80;
 static const size_t VGA_HEIGHT = 25;

@@ -4,6 +4,17 @@
 
 void kernel_main(void) {
 	terminal_initialize();
-	printf("Guess this prints!\n");
-	printf("This is a second line\n");
+	terminal_start();
+	
+	int cmd = 0;
+	hello_user("root");
+	while(1){       //-------------Command loop
+    	prompt();
+    	cmd = get_command();
+    	execute_command(cmd);
+    	if(cmd == 2){
+      		break;
+    	}
+    	cmd = 0;
+  	}
 }
