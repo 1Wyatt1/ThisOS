@@ -53,7 +53,7 @@ dkms.conf
 
 
 *.iso
-isodir/
+/isodir/
 sysroot/
 isodir/boot/grub
 isodir/boot
