@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+*.iso
+isodir/
+sysroot/
+isodir/boot/grub
+isodir/boot
