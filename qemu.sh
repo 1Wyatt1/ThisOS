@@ -2,4 +2,6 @@
 set -e
 . ./iso.sh
 
-qemu-system-$(./target-triplet-to-arch.sh $HOST) -cdrom ThisOS.iso
+export QEMU="/usr/bin/qemu-system-i386"
+
+$QEMU -cdrom ThisOS.iso
