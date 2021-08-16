@@ -1,5 +1,4 @@
 # ThisOS
-<<<<<<< HEAD
 ThisOS is a hobby OS, dont expect it to move anywhere fast or move anywhere at all, I work on it when I get time to.
 
 ## Tools Needed
@@ -23,4 +22,3 @@ ThisOS is a hobby OS, dont expect it to move anywhere fast or anywhere at all, I
 - Add the cross-compiler to your temp path  
 [If you dont know how follow this link and scroll down to the "Preparation" section](https://wiki.osdev.org/GCC_Cross-Compiler)
 - Run `make` in the project root dir to build the project
->>>>>>> bee909eeab4dfa21be22c8bed240b8a70385d590
